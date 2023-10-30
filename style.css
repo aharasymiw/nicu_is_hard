@@ -15,9 +15,9 @@ body {
     background-color: skyblue;
 }
 
-.bird {
-    height: 125px;
-    width: 125px;
+.baby {
+    height: 117.1px;
+    width: 67px;
     position: fixed;
     top: 40vh;
     left: 30vw;
@@ -58,4 +58,33 @@ body {
 
 .score_val {
     color: gold;
+}
+
+.bottom,
+.top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bottom {
+    justify-content: flex-start;
+    padding-top: 5%;
+}
+
+.top {
+    justify-content: flex-end;
+    padding-bottom: 5%;
+}
+
+p {
+    font-size: 200%;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    color: yellow;
+    text-shadow:
+        3px 3px 0 #000,
+        -3px 3px 0 #000,
+        -3px -3px 0 #000,
+        3px -3px 0 #000;
 }
