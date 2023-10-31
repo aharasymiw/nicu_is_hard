@@ -9,7 +9,6 @@ let baby = document.querySelector('.baby');
 
 // Getting baby element properties 
 let initial_baby_props = baby.getBoundingClientRect();
-console.log('initial_baby_props:', initial_baby_props);
 let baby_props = initial_baby_props;
 
 let background =
