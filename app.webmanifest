@@ -1,4 +1,20 @@
 {
     "name": "NICU is Hard: A neonatology / perinatology game to help prepare you for boards",
-    "short_name": "NICU is Hard"
+    "short_name": "NICU is Hard",
+    "start_url": "./",
+    "theme_color": "blue", // You can use hex if you include: <meta name=quotetheme-colorquote content=quotesamehexvaluequote> in the index header.  Note dashes instead of underscores in theme_color
+    "scope": "./", // Links inside this domain will render as a webapp.  Links outside will render with an internal browser
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "icon-500.png",
+            "sizes": "500x500", // Needed for mobile
+            "type": "img/png"
+        },
+        {
+            "src": "icon-1024.png",
+            "sizes": "1024x1024", // Good size for desktop
+            "type": "img/png"
+        }
+    ]
 }
